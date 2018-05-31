@@ -1,0 +1,16 @@
+ \documentclass{standalone}
+ \usepackage{tikz}
+ \usepackage{tkz-euclide}
+ \begin{document}
+
+ \begin{tikzpicture}[scale=0.7] 
+\tkzInit[xmax=6,ymax=8,xmin=-6,ymin=-7]
+   \tkzAxeXY
+  \draw (2,8) -- (-3,-7) node[anchor=south east] {$y=3x+2$};
+
+   \filldraw[red] (2,8)circle(4pt);
+   \filldraw[red] (-3,-7)circle(4pt);
+   \filldraw[red] (0,2)circle(4pt);
+
+ \end{tikzpicture}
+ \end{document}

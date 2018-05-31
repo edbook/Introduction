@@ -1,0 +1,15 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}[domain=-3:8]
+    \draw[->] (-3.2,0) -- (8.2,0) node[right] {$x$};
+    \draw[->] (0,-1.2) -- (0,1.2) node[anchor=south west] {$y$};
+    \draw plot [samples=150] (\x,{sin(\x r)})  node[right] {$ \sin (x)$};
+     \foreach \x/\xtext in {-2,-1,1,2,3,4,5,6,7,8} 
+       \draw (\x cm,1pt) -- (\x cm,-1pt) node[anchor=north] {$\xtext$};
+     \foreach \y/\ytext in {-1,1} 
+       \draw (1pt,\y cm) -- (-1pt,\y cm) node[anchor=east,fill=white] {$\ytext$};
+\end{tikzpicture}
+
+
+ \end{document}

@@ -1,0 +1,13 @@
+ \documentclass{standalone}
+ \usepackage{tikz}
+ \usepackage{tkz-euclide}
+ \begin{document}
+
+ \begin{tikzpicture}
+\tkzInit[xmax=4,ymax=9,xmin=-4,ymin=-0]
+   \tkzAxeXY
+    \draw[domain=-3:3,smooth,variable=\x,black] plot ({\x},{\x*\x});
+
+
+ \end{tikzpicture}
+ \end{document}

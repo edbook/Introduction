@@ -1,0 +1,20 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage{tkz-euclide}
+
+
+\begin{document}
+
+\begin{tikzpicture}[scale=0.7]
+   \tkzInit[xmax=6,ymax=6,xmin=-3,ymin=-3]
+   \tkzAxeXY
+   \tkzClip
+        \tkzDefPoints{0/0/O, -3/2/A, 4/-4/B, 4/0/M}
+   %\tkzGrid
+   \draw[dashed] (4,0) -- (4,2) node[anchor=south west] {$(4,2)$};
+   \draw[dashed] (0,2) -- (4,2) node[anchor=south west] {};
+   \fill (4,2)circle(2pt);
+  
+\end{tikzpicture}
+
+\end{document}

@@ -1,0 +1,16 @@
+ \documentclass{standalone}
+ \usepackage{tikz}
+ \usepackage{tkz-euclide}
+ \begin{document}
+
+ \begin{tikzpicture}
+\tkzInit[xmax=5,ymax=9,xmin=-5,ymin=-0]
+   \tkzAxeXY
+    \draw[domain=-3:3,smooth,variable=\x,black] plot ({\x},{\x*\x});
+
+    \foreach \x/\y in {0/0, 1/1, -1/1, 2/4, -2/4, 3/9, -3/9}
+    \filldraw[red] (\x,\y)circle(4pt);
+
+
+ \end{tikzpicture}
+ \end{document}

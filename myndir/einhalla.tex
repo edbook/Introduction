@@ -1,0 +1,14 @@
+ \documentclass{standalone}
+ \usepackage{tikz}
+ \usepackage{tkz-euclide}
+ \begin{document}
+
+ \begin{tikzpicture}
+\tkzInit[xmax=4,ymax=5,xmin=-4,ymin=-4]
+   \tkzAxeXY
+    \draw[domain=-4:3.5,smooth,variable=\x,green] plot ({\x},{\x+2}) node[anchor=south west, color=black] {$f(x)=x+2$};
+    \draw[domain=-2.2:2.5,smooth,variable=\x,red] plot ({\x},{-2*\x+1}) node[anchor=south west, color=black] {$g(x)=-2x+1$};
+    \draw[domain=-4:4,smooth,variable=\x,blue] plot ({\x},{2}) node[anchor=south west, color=black] {$h(x)=2$};
+
+ \end{tikzpicture}
+ \end{document}
