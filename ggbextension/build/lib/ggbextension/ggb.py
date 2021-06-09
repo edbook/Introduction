@@ -3,7 +3,10 @@
 
 from docutils import nodes
 from docutils.parsers.rst import directives
-from sphinx.util.compat import Directive
+try:
+    from sphinx.util.compat import Directive
+except ImportError:
+    from docutils.parsers.rst import Directive
 
 
 class ggb(nodes.General, nodes.Element):

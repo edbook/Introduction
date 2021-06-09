@@ -9,7 +9,7 @@ course material in mathematics and other subjects.
 
 The material is written in the markup language *reStructuredText* and the output can be 
 a html-page (like this), pdf-file (via LaTeX, 
-see `stae104g.pdf <https://edbook.hi.is/stae104g/stae104g.pdf>`_), 
+see for example `stae104g.pdf <https://edbook.hi.is/stae104g/stae104g.pdf>`_), 
 epub e-book and slides. 
 
 
@@ -38,6 +38,20 @@ in mathematics where we work with complicated concepts which need a very precise
 approach. Also, they don't give students a big role in the lecture, they
 are powerless and will possibly have troubles connecting the lecture/slides 
 to other parts of the course (e.g. book, homework assignments, etc.).
+
+Features
+~~~~~~~~
+
+The requirements when I started this where the following:
+
+- Live homepage with a static printable version also available.
+- Live applets embedded (GeoGebra, Google Maps, videos, programming, etc.). 
+- Good support for math symbols.
+- Viewable on computers, tablets and mobiles. 
+- Index and search.
+- Icelandic language support.
+- Hyperlinks to sections in the material.
+- Open source and availability.
 
 Bonus
 ~~~~~

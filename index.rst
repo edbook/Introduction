@@ -9,8 +9,8 @@ Introduction to interactive course notes in Edbook
 Benedikt Magnússon <bsm@hi.is>, University of Iceland
 -----------------------------------------------------
 
-2018-05-30 - University of Stavanger
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+`EDULEARN19 <https://www.iated.org/edulearn>`_ - 1st to 3rd of July 2019
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. toctree::
    :maxdepth: 2
@@ -20,5 +20,3 @@ Benedikt Magnússon <bsm@hi.is>, University of Iceland
    kafli*
 
 
-http://edbook.hi.is
-http://github.com/edbook

@@ -96,6 +96,8 @@ Videos from Youtube or Panopto can be embedded.
 Other
 -----
 
+* A <a href="https://edbook.hi.is/stae104g/stae104g.pdf">pdf</a>-version is available who those which to print them out.
+
 * `Index <https://edbook.hi.is/stae104g/genindex.html>`_.
 
 * (Icelandic) translations of mathematical can be shown, 
@@ -105,4 +107,5 @@ Other
   This feature uses the dictionary of the Icelandic Mathematical Society (http://stae.is/os).
 
 * It is possible to collect statistics through the web server, Google Analytics and Panopto.
+This can be used to see how students use the notes. If there are some parts they use more than others and if there are some parts (e.g. proofs) which they skip.
 

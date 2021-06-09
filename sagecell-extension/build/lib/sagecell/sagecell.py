@@ -3,9 +3,7 @@
 
 from docutils import nodes
 from docutils.parsers.rst import directives
-from sphinx.util.compat import Directive
-
-
+from docutils.parsers.rst import Directive
 
 class sagecell(nodes.General, nodes.Element): 
     pass
